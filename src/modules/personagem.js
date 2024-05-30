@@ -1,8 +1,8 @@
 export class Personagem {
     constructor(nome, level, tipo) {
         this.nome = nome;
-        this.vida = undefined;
-        this.mana = undefined;
+        this.vida = 100;
+        this.mana = 100;
         this.level = level;
         this.tipo = tipo;
         this.descricao = undefined;
