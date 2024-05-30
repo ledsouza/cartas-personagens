@@ -1,11 +1,13 @@
 export class Personagem {
-    constructor(nome, level, tipo) {
+    nome;
+    vida = 100;
+    mana = 100;
+    level;
+    descricao;
+
+    constructor(nome, level) {
         this.nome = nome;
-        this.vida = 100;
-        this.mana = 100;
         this.level = level;
-        this.tipo = tipo;
-        this.descricao = undefined;
     }
 
     obterInsignia() {
