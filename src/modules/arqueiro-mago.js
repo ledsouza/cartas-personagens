@@ -6,6 +6,7 @@ export class ArqueiroMago extends Personagem {
     ladoArqueiro;
     ladoMago;
     static tipo = "ArqueiroMago";
+    static descricao = "Mestre da magia e das flechas, domina a distância com precisão letal.";
 
     constructor(nome, level, destreza, elementoMagico, levelMagico, inteligencia) {
         super(nome, level);
